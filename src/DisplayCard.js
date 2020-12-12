@@ -19,7 +19,7 @@ class DisplayCard extends React.Component {
 		return (
 			<div className="cardContainer">
 				<div className="imgContainer">
-					<img src={this.state.Person.img} />
+					<img src={this.state.Person.img} alt={this.state.Person.name} />
 					<i className="quote right icon" />
 				</div>
 				<h1 className="personName">{this.state.Person.name}</h1>

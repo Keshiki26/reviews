@@ -8,8 +8,8 @@ class App extends React.Component {
 		return (
 			<div className="root">
 				<div className="contentContainer">
-					<h2 class="ui header title">
-						<div class="content">Our Reviews</div>
+					<h2 className="ui header title">
+						<div className="content">Our Reviews</div>
 					</h2>
 					<DisplayCard />
 				</div>
